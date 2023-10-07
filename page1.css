@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Rebrand-header;
+    src: url(./fonts/Rebrand\ Light.ttf);
+}
+
+@font-face {
+    font-family: Henderson-Sana-basic;
+    src: url(./fonts/Henderson\ Sans.otf);
+}
+
+@font-face {
+    font-family: Henderson-Sana-bold;
+    src: url(./fonts/HendersonSans\ Bold.otf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+    background-color: #0c0c4c;
+}
+
+.header{
+    margin-top: 7%;
+    margin-left: 38%;
+    display: flex;
+}
+
+.logo{
+  background-image: url("./images/header .png");  
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2%;
+  margin-right: 1%;
+  
+}
+
+.header h1{
+    font-family: Rebrand-header;
+    color: white;
+    font-size: 300%;
+}
+
+.building{
+  background-image: url("./images/building.png");  
+  width: 400px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -1%;
+  margin-left: 34.5%;
+}
+
+.rent-statement{
+    font-family: Henderson-Sana-basic;
+    text-align: center;
+    color: white;
+}
+
+.Start-btn{
+    font-family: Henderson-Sana-basic;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    padding: 1em 2.5em;
+    margin:0.25em ;
+    margin-left: 22.5em;
+    margin-top: 8%;
+    margin-bottom: 40px;
+    border-radius: 1.5em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #1c1ce5;
+    text-decoration: none;
+}
+
+.Start-btn:hover{
+    color: #1c1ce5;
+    background:white ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    /*html,body{
+        width: 100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }*/
+
+
+    .header{
+        display: flex;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+    
+    .logo{
+      background-image: url("./images/header .png");  
+      width: 60px;
+      height: 60px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-top: 5%;
+      margin-right: 2%;
+    }
+    
+    .header h1{
+        font-family: Rebrand-header;
+        color: white;
+        font-size: 300%;
+    }
+    
+    .building{
+      background-image: url("./images/building.png");  
+      width: 290px;
+      height: 300px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-top: 6%;
+      margin-left: 10%;
+    }
+
+    .rent-statement{
+        font-family: Henderson-Sana-basic;
+        margin-right:4% ;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .Start-btn{
+        font-family: Henderson-Sana-basic;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding: 15px 50px;
+        margin-left:110px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        background: #1c1ce5;
+        margin-top: 10%;
+        transition: 0.8s;
+    }
+    
+    .Start-btn:hover{
+        color: #1c1ce5;
+        background:white ;
+        
+    }
+
+  }

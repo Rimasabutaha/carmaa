@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carma Form</title>
+    <link rel="stylesheet" href="./page2.css">
+    <script defer src="./page2.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo"></div>
+          <h1>carma</h1>
+    </div>
+
+    <div class="container">
+        <form id="form" action="./page3.html" method="GET">
+            <div class="input-control" id="all">
+                <label for="firstname" class="heading">First Name</label>
+                <input id="firstname" name="firstname" type="text" placeholder="First Name">
+                <div class="error" id="er"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="lastname" class="heading">Last Name</label>
+                <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+                <div class="error" id="er"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="email" class="heading">Email</label>
+                <input id="email" name="email" type="email" placeholder="Email">
+                <div class="error" id="er"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="tely" class="heading">Phone Number</label>
+                <input id="tely" name="tely" type="tel" placeholder="Phone Number">
+                <div class="error"></div>
+            </div>
+
+            <button class="Start-btn" type="submit" value="submit">Next</button>
+        </form>
+
+</body>
+</html>

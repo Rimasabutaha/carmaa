@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carma Form</title>
+    <link rel="stylesheet" href="./page3.css">
+    <script defer src="./page3.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo"></div>
+          <h1>carma</h1>
+    </div>
+
+    <div class="container">
+        <form id="form" action="./page4.html" method="GET">
+            <div class="input-control" id="all">
+                <label for="salary" class="heading">Salary</label>
+                <input id="salary" name="salary" type="numerical" placeholder="Salary">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="obligation" class="heading">Monthly Obligation</label>
+                <input id="obligation" name="obligation" type="numerical" placeholder="Monthly Obligation">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="rent" class="heading">Expected Yearly Rent Amount</label>
+                <input id="rent" name="rent" type="numerical" placeholder="Expected Yearly Rent Amount">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control" id="all">
+                <label for="date" class="heading">Expected Rent Start Date</label>
+                <input id="date" name="date" type="date" min="2023-10-07">
+                <div class="error"></div>
+            </div>
+
+            <button class="Start-btn" type="submit" value="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
